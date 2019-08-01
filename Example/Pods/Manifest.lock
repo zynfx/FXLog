@@ -1,0 +1,16 @@
+PODS:
+  - FLog (0.1.0)
+
+DEPENDENCIES:
+  - FLog (from `../`)
+
+EXTERNAL SOURCES:
+  FLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLog: f389c8eb66a977317c8a13a068080903cfa772b2
+
+PODFILE CHECKSUM: fa4ada7cecc91243c4d5eae93e0379b7a2435e8c
+
+COCOAPODS: 1.7.4

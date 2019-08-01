@@ -1,0 +1,6 @@
+framework module FLog {
+  umbrella header "FLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
