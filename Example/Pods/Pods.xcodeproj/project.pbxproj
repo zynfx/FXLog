@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		27EBF2BC6FE054ABD52EA97EEF7A4F32 /* Pods-FLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA8E7BDAF0AC952BE678E89365E4E0D /* Pods-FLog_Tests-dummy.m */; };
 		2E3DBB6522F2734100C06172 /* FLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DBB6422F2734100C06172 /* FLog.swift */; };
+		2E3DBB6722F2BB6E00C06172 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DBB6622F2BB6E00C06172 /* README.md */; };
 		3ABAFF2EFA41DD5B65A173906155B9B6 /* FLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2CCD0BEFA34CA4A26B851A53BB3A04 /* FLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B8B28DE376C86BAABB0522ECC2EBA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4541544AA67D9CFB1E4CF0FC35110682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -39,13 +40,14 @@
 
 /* Begin PBXFileReference section */
 		0070C304C89735A26AF2904CCA36EBB4 /* FLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLog-prefix.pch"; sourceTree = "<group>"; };
-		00BDA1FE0D3A9E7FD51BC96C422E7AD0 /* FLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		00BDA1FE0D3A9E7FD51BC96C422E7AD0 /* FXLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FXLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		02496BF50772B8D0D9A93AB3F83E8DEE /* Pods-FLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1155CC6C4C1401548A66E658B0E9FEDC /* Pods-FLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1D0967CCEA115D2E840713654A7E73D2 /* Pods-FLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLog_Example.modulemap"; sourceTree = "<group>"; };
 		1F45ACBC27373AF83E3A91C3D2BD8605 /* Pods-FLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		274C1994F72BE0130FE3BD00A703B8EE /* Pods-FLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2E3DBB6422F2734100C06172 /* FLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLog.swift; sourceTree = "<group>"; };
+		2E3DBB6622F2BB6E00C06172 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		372C0AB91B6C2BB899F439A8A00380F3 /* FLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLog-dummy.m"; sourceTree = "<group>"; };
 		3EE40039A708A13043B3E27799BD8202 /* FLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLog-Info.plist"; sourceTree = "<group>"; };
@@ -173,7 +175,8 @@
 		AAB27C9004A64DB76D5B08290E138956 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				00BDA1FE0D3A9E7FD51BC96C422E7AD0 /* FLog.podspec */,
+				2E3DBB6622F2BB6E00C06172 /* README.md */,
+				00BDA1FE0D3A9E7FD51BC96C422E7AD0 /* FXLog.podspec */,
 				C2F139D9C6143EC62B9EE26AA3588001 /* LICENSE */,
 				419AD503DD4E48BF552E63D23BBE6F26 /* README.md */,
 			);
@@ -350,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3DBB6722F2BB6E00C06172 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

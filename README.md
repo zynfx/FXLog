@@ -17,12 +17,12 @@ FLog is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'FLog'
+pod 'FXLog'
 ```
 
 ## Author
 
-zhuyannan, zhu.yannan@icerno.com
+zynfx, zyn1551523855@163.com
 
 ## License
 
