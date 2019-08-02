@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		27EBF2BC6FE054ABD52EA97EEF7A4F32 /* Pods-FLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA8E7BDAF0AC952BE678E89365E4E0D /* Pods-FLog_Tests-dummy.m */; };
-		2E3DBB6522F2734100C06172 /* FLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DBB6422F2734100C06172 /* FLog.swift */; };
 		2E3DBB6722F2BB6E00C06172 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DBB6622F2BB6E00C06172 /* README.md */; };
+		2E3DBB6D22F2BD8F00C06172 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DBB6B22F2BD8F00C06172 /* .gitkeep */; };
+		2E3DBB7022F2BDB600C06172 /* FXLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DBB6F22F2BDB600C06172 /* FXLog.swift */; };
 		3ABAFF2EFA41DD5B65A173906155B9B6 /* FLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2CCD0BEFA34CA4A26B851A53BB3A04 /* FLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B8B28DE376C86BAABB0522ECC2EBA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4541544AA67D9CFB1E4CF0FC35110682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -17,7 +18,6 @@
 		9C881C7A2746E2483310A5A0A9A0C071 /* Pods-FLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B3ED50F77CB3CC460822477654814 /* Pods-FLog_Example-dummy.m */; };
 		AD978FA436F6EECAD0FD7770E05113C3 /* Pods-FLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9E8FDFF3BF363F486CAC3935DB4CEC /* Pods-FLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADDD9404C8A4C8F8A354F22C37CBC681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CFAC3EFE4AEF159B01C66EE59DBA7850 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70D680E5A57E4446A11C2181D1294E9 /* ReplaceMe.swift */; };
 		F3DA330F3B4E4D5DE230508883896697 /* FLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 372C0AB91B6C2BB899F439A8A00380F3 /* FLog-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +46,9 @@
 		1D0967CCEA115D2E840713654A7E73D2 /* Pods-FLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLog_Example.modulemap"; sourceTree = "<group>"; };
 		1F45ACBC27373AF83E3A91C3D2BD8605 /* Pods-FLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		274C1994F72BE0130FE3BD00A703B8EE /* Pods-FLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLog_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2E3DBB6422F2734100C06172 /* FLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLog.swift; sourceTree = "<group>"; };
 		2E3DBB6622F2BB6E00C06172 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2E3DBB6B22F2BD8F00C06172 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		2E3DBB6F22F2BDB600C06172 /* FXLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXLog.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		372C0AB91B6C2BB899F439A8A00380F3 /* FLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLog-dummy.m"; sourceTree = "<group>"; };
 		3EE40039A708A13043B3E27799BD8202 /* FLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLog-Info.plist"; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		B06263F008EF4B76581BE7DA978FC8FB /* Pods-FLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2F139D9C6143EC62B9EE26AA3588001 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6EC7CCF6AB41F04CD8CC12EDAB0BC4A /* Pods-FLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D70D680E5A57E4446A11C2181D1294E9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FLog/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		DD92EE5661C850C9350F85CA20136044 /* Pods-FLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLog_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DE2CCD0BEFA34CA4A26B851A53BB3A04 /* FLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLog-umbrella.h"; sourceTree = "<group>"; };
 		DE64E48FF190DB79A40BFCC5A031CE6E /* Pods-FLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLog_Tests.modulemap"; sourceTree = "<group>"; };
@@ -111,6 +111,16 @@
 				A118F38997732A88DD34880C05C02985 /* Pods_FLog_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3DBB6A22F2BD8F00C06172 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DBB6B22F2BD8F00C06172 /* .gitkeep */,
+				2E3DBB6F22F2BDB600C06172 /* FXLog.swift */,
+			);
+			name = Classes;
+			path = FLog/Classes;
 			sourceTree = "<group>";
 		};
 		2F7B45D6EF970A669431BAF8452DB091 /* Support Files */ = {
@@ -163,8 +173,7 @@
 		72AFDCFC28589FE2DD027E752E11A010 /* FLog */ = {
 			isa = PBXGroup;
 			children = (
-				2E3DBB6422F2734100C06172 /* FLog.swift */,
-				D70D680E5A57E4446A11C2181D1294E9 /* ReplaceMe.swift */,
+				2E3DBB6A22F2BD8F00C06172 /* Classes */,
 				AAB27C9004A64DB76D5B08290E138956 /* Pod */,
 				2F7B45D6EF970A669431BAF8452DB091 /* Support Files */,
 			);
@@ -354,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E3DBB6722F2BB6E00C06172 /* README.md in Resources */,
+				2E3DBB6D22F2BD8F00C06172 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,8 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DA330F3B4E4D5DE230508883896697 /* FLog-dummy.m in Sources */,
-				CFAC3EFE4AEF159B01C66EE59DBA7850 /* ReplaceMe.swift in Sources */,
-				2E3DBB6522F2734100C06172 /* FLog.swift in Sources */,
+				2E3DBB7022F2BDB600C06172 /* FXLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
